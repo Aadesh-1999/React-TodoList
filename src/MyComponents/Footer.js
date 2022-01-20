@@ -1,5 +1,4 @@
 import React from 'react';
-import netflix from './netflix_logo.jpg';
 import './Footer.css';
 export const Footer = (props) => {
     let footerStyle={

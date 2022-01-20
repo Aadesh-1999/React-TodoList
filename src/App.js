@@ -11,7 +11,7 @@ function App() {
     console.log("I am ondelete of todo ",todo);
 
     setTodos(todos.filter((e)=>{
-      return e!=todo;
+      return e!==todo;
     }))
   }
 

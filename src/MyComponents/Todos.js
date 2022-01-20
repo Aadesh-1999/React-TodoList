@@ -17,4 +17,3 @@ export const Todos = (props) => {
   </div>
   );
 };
- 
