@@ -26,7 +26,7 @@ export const AddTodo = (props) => {
                 </div>
                 <div className="row m-3">
                     <div className="col d-flex justify-content-end">
-                        <button type="button" className="btn btn-success" type="submit">ADD TASK</button>
+                        <button className="btn btn-success" type="submit">ADD TASK</button>
                     </div>
                     <div className="col d-flex justify-content-start">
                         <button id="clrListBtn" type="button" className="btn btn-danger" /*onClick={clearTaskList()}*/>CLEAR LIST</button>
