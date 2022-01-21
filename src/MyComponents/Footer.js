@@ -7,7 +7,7 @@ export const Footer = (props) => {
     }
 
     return (
-        <div className='footerParent sticky-bottom mt-5 shadow'>
+        <div className='footerParent fixed-bottom mt-5 shadow'>
             <footer className='row d-flex jutify-content-centre align-content-centre border border-white' style={footerStyle}>
                 <div className='col' >
                     Copyright &copy; {props.name}
